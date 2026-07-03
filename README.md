@@ -151,20 +151,22 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_secret_key
 
-API Endpoints:-
+## API Endpoints
 
-Authentication
+### Authentication
 
-POST /api/auth/register – Register a new user
-POST /api/auth/login – Authenticate a user
-Ideas
-GET /api/ideas – Retrieve all ideas
-POST /api/ideas – Submit a new idea
-PATCH /api/ideas/:id/upvote – Upvote an idea
-PATCH /api/ideas/:id/downvote – Downvote an idea
-POST /api/ideas/:id/comment – Add a comment
-PATCH /api/ideas/:id/status – Update the idea status
-GET /api/ideas/leaderboard – View ideas ranked by votes
+- `POST /api/auth/register` – Register a new user
+- `POST /api/auth/login` – Authenticate a user
+
+### Ideas
+
+- `GET /api/ideas` – Retrieve all ideas
+- `POST /api/ideas` – Submit a new idea
+- `PATCH /api/ideas/:id/upvote` – Upvote an idea
+- `PATCH /api/ideas/:id/downvote` – Downvote an idea
+- `POST /api/ideas/:id/comment` – Add a comment
+- `PATCH /api/ideas/:id/status` – Update the idea status
+- `GET /api/ideas/leaderboard` – View ideas ranked by votes
 
 Security Features
 
